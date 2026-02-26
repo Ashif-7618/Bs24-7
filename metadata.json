@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Copy of BS 24/7 - GovAssist",
+  "description": "A comprehensive government document assistance platform providing seamless application, tracking, and appointment booking with AI-powered support.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
