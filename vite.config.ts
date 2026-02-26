@@ -5,7 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '')
   return {
-    base: './',         // 🟢 Add this!
+    base: '',         // 🟢 Add this!
+    build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
+    }
     server: {
       port: 3000,
       host: '0.0.0.0',
